@@ -1501,7 +1501,7 @@ def render_cat(
         data["nwords"],
     )
     if nwords > 0:
-        tabs.append(wordcloud_viz(word_cnts, plot_width, plot_height))
+        # tabs.append(wordcloud_viz(word_cnts, plot_width, plot_height))
         tabs.append(wordfreq_viz(word_cnts, nwords, plot_width, plot_height, True))
     # word length histogram
     length_dist = hist_viz(
